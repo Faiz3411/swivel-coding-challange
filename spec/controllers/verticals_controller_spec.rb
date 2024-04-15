@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe VerticalsController, type: :controller do
+RSpec.describe Api::VerticalsController, type: :controller do
   let(:valid_attributes) {
     { name: 'New Vertical' }
   }
