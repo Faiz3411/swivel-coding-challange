@@ -47,6 +47,7 @@ gem 'elasticsearch-model'
 
 gem 'doorkeeper'
 
+gem 'faker'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -75,7 +76,6 @@ group :test do
   gem "selenium-webdriver"
   gem 'rspec-rails'
   gem 'factory_bot_rails'
-  gem 'faker'
   gem 'database_cleaner'
 
 end
