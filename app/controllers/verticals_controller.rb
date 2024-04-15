@@ -3,7 +3,6 @@ class VerticalsController < ApplicationController
 
   # GET /verticals
   def index
-    debugger
     @verticals = Vertical.includes(categories: :courses).all
     render json: @verticals.as_json(include: { categories: { include: :courses } })
   end

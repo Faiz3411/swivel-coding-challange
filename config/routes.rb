@@ -20,6 +20,9 @@ Rails.application.routes.draw do
 
   # Routes for courses that can be accessed directly
   resources :courses, only: [:show, :destroy]
+
+  get '/search', to: 'search#search'
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
