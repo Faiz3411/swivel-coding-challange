@@ -51,7 +51,7 @@ class AuthController < ApplicationController
           scopes:         ""
         )
 
-    return { user: user, tokens: {refresh_token: access_token.refresh_token, access_token:  access_token.token }
+    return { user: user, tokens: {refresh_token: access_token.refresh_token, access_token:  access_token.token } }
   end
 
 
