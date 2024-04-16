@@ -49,6 +49,7 @@ gem 'elasticsearch-rails'
 gem 'doorkeeper'
 
 gem 'faker'
+gem 'searchkick'
 # Use Sass to process CSS
 # gem "sassc-rails"
 

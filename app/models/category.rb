@@ -1,6 +1,7 @@
 class Category < ApplicationRecord
   include Elasticsearch::Model
   include Elasticsearch::Model::Callbacks
+  searchkick
 
   has_many :courses, dependent: :destroy
   belongs_to :vertical

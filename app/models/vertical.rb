@@ -1,6 +1,7 @@
 class Vertical < ApplicationRecord
   include Elasticsearch::Model
   include Elasticsearch::Model::Callbacks
+  searchkick
 
   has_many :categories, dependent: :destroy
   accepts_nested_attributes_for :categories, allow_destroy: true
