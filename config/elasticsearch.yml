@@ -1,5 +1,5 @@
 development:
   url: 'http://localhost:9200'
 
-production:
-  url: 'https://4z1pk9cadi:9m9xaqzuo9@fig-180196555.us-east-1.bonsaisearch.net:443'
+# production:
+#   url: 'https://4z1pk9cadi:9m9xaqzuo9@fig-180196555.us-east-1.bonsaisearch.net:443'
