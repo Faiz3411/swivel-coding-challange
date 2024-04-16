@@ -2,5 +2,4 @@ development:
   url: 'http://localhost:9200'
 
 production:
-  url: 'https://3a6e1eb0463147378443c6fb0c31626d.us-east-1.aws.found.io'
-  xpack.security.enabled: false
+  url: 'https://4z1pk9cadi:9m9xaqzuo9@fig-180196555.us-east-1.bonsaisearch.net:443'
