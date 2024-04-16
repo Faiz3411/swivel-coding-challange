@@ -1,2 +1,4 @@
 development:
   url: 'http://localhost:9200'
+production:
+  url: 'https://79228a508c01406f9a5179dcdd5cf7c2.us-east-1.aws.found.io'
