@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 
 gem 'devise'
 gem 'elasticsearch-model'
+gem 'elasticsearch-rails'
 
 gem 'doorkeeper'
 
