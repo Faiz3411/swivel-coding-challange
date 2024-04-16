@@ -1,4 +1,5 @@
 development:
   url: 'http://localhost:9200'
+  
 production:
-  url: 'https://79228a508c01406f9a5179dcdd5cf7c2.us-east-1.aws.found.io'
+  url: 'https://3a6e1eb0463147378443c6fb0c31626d.us-east-1.aws.found.io'
