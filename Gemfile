@@ -43,8 +43,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 gem 'devise'
-gem 'elasticsearch-model', '< 7.10'
-gem 'elasticsearch-rails', '< 7.10'
+gem 'elasticsearch-model', '< 7.10', '>= 7.0'
+gem 'elasticsearch-rails', '< 7.10', '>= 7.0'
 
 gem 'doorkeeper'
 
