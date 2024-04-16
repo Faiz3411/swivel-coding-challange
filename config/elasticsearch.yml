@@ -1,5 +1,6 @@
 development:
   url: 'http://localhost:9200'
-  
+
 production:
   url: 'https://3a6e1eb0463147378443c6fb0c31626d.us-east-1.aws.found.io'
+  xpack.security.enabled: false
