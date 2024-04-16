@@ -51,7 +51,7 @@ gem 'doorkeeper'
 gem 'faker'
 gem 'searchkick'
 
-gem 'bonsai-elasticsearch-rails'
+# gem 'bonsai-elasticsearch-rails'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
